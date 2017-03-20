@@ -1,0 +1,20 @@
+PODS:
+  - ReactiveSwift (1.1.0):
+    - Result (~> 3.1)
+  - Realm (2.4.4):
+    - Realm/Headers (= 2.4.4)
+  - Realm/Headers (2.4.4)
+  - Result (3.2.1)
+
+DEPENDENCIES:
+  - ReactiveSwift (~> 1.1)
+  - Realm (~> 2.4)
+
+SPEC CHECKSUMS:
+  ReactiveSwift: 2f4e4a02e5a5c87ea63f5fe667163ce2a67cbb57
+  Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+
+PODFILE CHECKSUM: c1cec1d7f7b2ef8ce6324c6972e5d691489c5a05
+
+COCOAPODS: 1.1.1
