@@ -22,6 +22,8 @@
 		E1AD9D281E7DF67400FC10CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9D271E7DF67400FC10CE /* LoginViewController.swift */; };
 		E1AD9D2D1E7DF81E00FC10CE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9D2C1E7DF81E00FC10CE /* RegistrationViewModel.swift */; };
 		E1AD9D301E7E006200FC10CE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9D2F1E7E006200FC10CE /* LoginService.swift */; };
+		E1DE6F091E9427AA00A2A031 /* ParentsApplication in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F081E9427AA00A2A031 /* ParentsApplication */; };
+		E1DE6F0B1E9427C000A2A031 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F0A1E9427C000A2A031 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,6 @@
 		E185719A1E799FAF00423730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E185719C1E799FAF00423730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
 		E185719F1E799FAF00423730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E18571A11E799FAF00423730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		E18571A61E799FAF00423730 /* ParentsApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentsApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18571AA1E799FAF00423730 /* ParentsApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentsApplicationTests.swift; sourceTree = "<group>"; };
 		E18571AC1E799FAF00423730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +69,8 @@
 		E1AD9D271E7DF67400FC10CE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Modules/LoginViewModule/LoginViewController.swift; sourceTree = "<group>"; };
 		E1AD9D2C1E7DF81E00FC10CE /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewModel.swift; path = Modules/RegistrationModule/RegistrationViewModel.swift; sourceTree = "<group>"; };
 		E1AD9D2F1E7E006200FC10CE /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		E1DE6F081E9427AA00A2A031 /* ParentsApplication */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ParentsApplication; sourceTree = "<group>"; };
+		E1DE6F0A1E9427C000A2A031 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB7CBBABF12D8C51D31D7B2F /* Pods-ParentsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentsApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParentsApplication/Pods-ParentsApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,7 +199,8 @@
 			children = (
 				E1AD9D211E7DF56E00FC10CE /* Images */,
 				E18571951E799FAF00423730 /* AppDelegate.swift */,
-				E18571A11E799FAF00423730 /* Info.plist */,
+				E1DE6F0A1E9427C000A2A031 /* Info.plist */,
+				E1DE6F081E9427AA00A2A031 /* ParentsApplication */,
 			);
 			name = SupportedFiles;
 			sourceTree = "<group>";
@@ -364,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1AD9D191E7DF4A400FC10CE /* Login.storyboard in Resources */,
+				E1DE6F091E9427AA00A2A031 /* ParentsApplication in Resources */,
+				E1DE6F0B1E9427C000A2A031 /* Info.plist in Resources */,
 				E18571A01E799FAF00423730 /* LaunchScreen.storyboard in Resources */,
 				E185719D1E799FAF00423730 /* Assets.xcassets in Resources */,
 				E185719B1E799FAF00423730 /* Main.storyboard in Resources */,
