@@ -8,8 +8,45 @@
 
 import Foundation
 
+enum LoginError: Error {
+    case invalid(String)
+}
+
+enum Result<T> {
+    case Success(T)
+    case Failure(Error)
+}
+
 class LoginService {
-    public func login(with userName: String, password: String, successHandler: () -> Void) {
-        successHandler()
+  
+    
+    private let loginStatusKey = "loginStatus"
+    
+    func login(login:String, password:String, completionHandler: (Result<Void>) -> Void) {
+        
+        completionHandler(Result.Success())
+
+        //completionHandler(Result.Failure(LoginError.invalid("Login or password is not valideted")))
+        
+    }
+    
+    func logOut() {
+    }
+    
+    func loginStatus() -> Bool {
+//        UserDefaults.standard.synchronize()
+//        if let _ = UserDefaults.standard.value(forKey: loginStatusKey) as! Bool?
+//        {
+//            return true
+//        }else{
+//            return false
+//        }
+        return true;
     }
 }
+
+
+
+
+
+

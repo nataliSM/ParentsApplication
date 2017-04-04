@@ -24,6 +24,7 @@
 		E1AD9D301E7E006200FC10CE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9D2F1E7E006200FC10CE /* LoginService.swift */; };
 		E1DE6F091E9427AA00A2A031 /* ParentsApplication in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F081E9427AA00A2A031 /* ParentsApplication */; };
 		E1DE6F0B1E9427C000A2A031 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F0A1E9427C000A2A031 /* Info.plist */; };
+		E1DE6F0E1E942FB400A2A031 /* Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F0C1E942FB400A2A031 /* Task.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E1AD9D2F1E7E006200FC10CE /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		E1DE6F081E9427AA00A2A031 /* ParentsApplication */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ParentsApplication; sourceTree = "<group>"; };
 		E1DE6F0A1E9427C000A2A031 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DE6F0D1E942FB400A2A031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Storyboards/Base.lproj/Task.storyboard; sourceTree = "<group>"; };
 		EB7CBBABF12D8C51D31D7B2F /* Pods-ParentsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentsApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParentsApplication/Pods-ParentsApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,6 +185,7 @@
 				E185719E1E799FAF00423730 /* LaunchScreen.storyboard */,
 				E1AD9D171E7DF4A400FC10CE /* Login.storyboard */,
 				E18571991E799FAF00423730 /* Main.storyboard */,
+				E1DE6F0C1E942FB400A2A031 /* Task.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				E1AD9D191E7DF4A400FC10CE /* Login.storyboard in Resources */,
 				E1DE6F091E9427AA00A2A031 /* ParentsApplication in Resources */,
 				E1DE6F0B1E9427C000A2A031 /* Info.plist in Resources */,
+				E1DE6F0E1E942FB400A2A031 /* Task.storyboard in Resources */,
 				E18571A01E799FAF00423730 /* LaunchScreen.storyboard in Resources */,
 				E185719D1E799FAF00423730 /* Assets.xcassets in Resources */,
 				E185719B1E799FAF00423730 /* Main.storyboard in Resources */,
@@ -601,6 +605,14 @@
 			);
 			name = Login.storyboard;
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E1DE6F0C1E942FB400A2A031 /* Task.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DE6F0D1E942FB400A2A031 /* Base */,
+			);
+			name = Task.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
